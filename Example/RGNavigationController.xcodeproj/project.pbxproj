@@ -23,6 +23,21 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F14E549E2406137900A4583D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54982406137900A4583D /* BaseViewController.m */; };
+		F14E54A02406137900A4583D /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E549C2406137900A4583D /* BaseTabBarController.m */; };
+		F14E54B22406142500A4583D /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54A32406142400A4583D /* MeViewController.m */; };
+		F14E54B32406142500A4583D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54A52406142500A4583D /* HomeViewController.m */; };
+		F14E54B42406142500A4583D /* login-return@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14E54AA2406142500A4583D /* login-return@3x.png */; };
+		F14E54B52406142500A4583D /* my_g@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14E54AC2406142500A4583D /* my_g@3x.png */; };
+		F14E54B62406142500A4583D /* home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14E54AD2406142500A4583D /* home@3x.png */; };
+		F14E54B72406142500A4583D /* home_g@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14E54AE2406142500A4583D /* home_g@3x.png */; };
+		F14E54B82406142500A4583D /* my@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14E54AF2406142500A4583D /* my@3x.png */; };
+		F14E54B92406142500A4583D /* BaseControllerConfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = F14E54B12406142500A4583D /* BaseControllerConfigure.plist */; };
+		F14E54C22406143200A4583D /* TEST03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54BB2406143100A4583D /* TEST03ViewController.m */; };
+		F14E54C32406143200A4583D /* TEST04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54BD2406143100A4583D /* TEST04ViewController.m */; };
+		F14E54C42406143200A4583D /* TEST02Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54C02406143100A4583D /* TEST02Controller.m */; };
+		F14E54C52406143200A4583D /* TEST01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54C12406143100A4583D /* TEST01ViewController.m */; };
+		F14E54D32406144D00A4583D /* PublicFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = F14E54CF2406144D00A4583D /* PublicFunction.m */; };
 		FD29A5B865E56F6988798CC7 /* Pods_RGNavigationController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A239ED3BD666FE563550F83 /* Pods_RGNavigationController_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		233F95BC0840D1F7AD17BB1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		233F95BC0840D1F7AD17BB1A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		27A3507A5D741CB360720A56 /* Pods-RGNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGNavigationController_Example.debug.xcconfig"; path = "Target Support Files/Pods-RGNavigationController_Example/Pods-RGNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		295F25B626D5379EA8B54C5B /* RGNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RGNavigationController.podspec; path = ../RGNavigationController.podspec; sourceTree = "<group>"; };
+		295F25B626D5379EA8B54C5B /* RGNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RGNavigationController.podspec; path = ../RGNavigationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46BC736579D6B77B7D59334B /* Pods-RGNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGNavigationController_Tests.release.xcconfig"; path = "Target Support Files/Pods-RGNavigationController_Tests/Pods-RGNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A239ED3BD666FE563550F83 /* Pods_RGNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA367A13DBBEC9459AF4302 /* Pods-RGNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGNavigationController_Example.release.xcconfig"; path = "Target Support Files/Pods-RGNavigationController_Example/Pods-RGNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +77,39 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		712529895DED2419A9DAB5D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		712529895DED2419A9DAB5D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C34653563C263AFFC92107C /* Pods-RGNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RGNavigationController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RGNavigationController_Tests/Pods-RGNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDF2A5CA242AC0086ED53439 /* Pods_RGNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14E54982406137900A4583D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F14E54992406137900A4583D /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		F14E549C2406137900A4583D /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		F14E549D2406137900A4583D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F14E54A22406142400A4583D /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		F14E54A32406142400A4583D /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		F14E54A52406142500A4583D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F14E54A62406142500A4583D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F14E54AA2406142500A4583D /* login-return@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-return@3x.png"; sourceTree = "<group>"; };
+		F14E54AC2406142500A4583D /* my_g@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my_g@3x.png"; sourceTree = "<group>"; };
+		F14E54AD2406142500A4583D /* home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@3x.png"; sourceTree = "<group>"; };
+		F14E54AE2406142500A4583D /* home_g@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_g@3x.png"; sourceTree = "<group>"; };
+		F14E54AF2406142500A4583D /* my@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my@3x.png"; sourceTree = "<group>"; };
+		F14E54B12406142500A4583D /* BaseControllerConfigure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaseControllerConfigure.plist; sourceTree = "<group>"; };
+		F14E54BA2406143100A4583D /* TEST01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST01ViewController.h; sourceTree = "<group>"; };
+		F14E54BB2406143100A4583D /* TEST03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST03ViewController.m; sourceTree = "<group>"; };
+		F14E54BC2406143100A4583D /* TEST04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST04ViewController.h; sourceTree = "<group>"; };
+		F14E54BD2406143100A4583D /* TEST04ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST04ViewController.m; sourceTree = "<group>"; };
+		F14E54BE2406143100A4583D /* TEST02Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST02Controller.h; sourceTree = "<group>"; };
+		F14E54BF2406143100A4583D /* TEST03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST03ViewController.h; sourceTree = "<group>"; };
+		F14E54C02406143100A4583D /* TEST02Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST02Controller.m; sourceTree = "<group>"; };
+		F14E54C12406143100A4583D /* TEST01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST01ViewController.m; sourceTree = "<group>"; };
+		F14E54C72406144D00A4583D /* OtherHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherHeader.h; sourceTree = "<group>"; };
+		F14E54C82406144D00A4583D /* ClassHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassHeader.h; sourceTree = "<group>"; };
+		F14E54C92406144D00A4583D /* ColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDefine.h; sourceTree = "<group>"; };
+		F14E54CA2406144D00A4583D /* StringHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHeader.h; sourceTree = "<group>"; };
+		F14E54CE2406144D00A4583D /* PublicFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicFunction.h; sourceTree = "<group>"; };
+		F14E54CF2406144D00A4583D /* PublicFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicFunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +175,20 @@
 		6003F593195388D20070C39A /* Example for RGNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				F14E54BA2406143100A4583D /* TEST01ViewController.h */,
+				F14E54C12406143100A4583D /* TEST01ViewController.m */,
+				F14E54BE2406143100A4583D /* TEST02Controller.h */,
+				F14E54C02406143100A4583D /* TEST02Controller.m */,
+				F14E54BF2406143100A4583D /* TEST03ViewController.h */,
+				F14E54BB2406143100A4583D /* TEST03ViewController.m */,
+				F14E54BC2406143100A4583D /* TEST04ViewController.h */,
+				F14E54BD2406143100A4583D /* TEST04ViewController.m */,
+				F14E54C62406144D00A4583D /* ConfigDefine */,
+				F14E54CB2406144D00A4583D /* Utilities */,
+				F14E54A42406142500A4583D /* Home */,
+				F14E54A12406142400A4583D /* Me */,
+				F14E54A72406142500A4583D /* Resources */,
+				F14E54972406137900A4583D /* Base */,
 				6003F59C195388D20070C39A /* RGAppDelegate.h */,
 				6003F59D195388D20070C39A /* RGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +250,141 @@
 				8C34653563C263AFFC92107C /* Pods-RGNavigationController_Tests.debug.xcconfig */,
 				46BC736579D6B77B7D59334B /* Pods-RGNavigationController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F14E54972406137900A4583D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54992406137900A4583D /* BaseTabBarController.h */,
+				F14E549C2406137900A4583D /* BaseTabBarController.m */,
+				F14E549D2406137900A4583D /* BaseViewController.h */,
+				F14E54982406137900A4583D /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F14E54A12406142400A4583D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54A22406142400A4583D /* MeViewController.h */,
+				F14E54A32406142400A4583D /* MeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F14E54A42406142500A4583D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54A52406142500A4583D /* HomeViewController.m */,
+				F14E54A62406142500A4583D /* HomeViewController.h */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F14E54A72406142500A4583D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54A82406142500A4583D /* Image */,
+				F14E54B02406142500A4583D /* PlistConfigure */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F14E54A82406142500A4583D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54A92406142500A4583D /* 图片 */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		F14E54A92406142500A4583D /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54AA2406142500A4583D /* login-return@3x.png */,
+				F14E54AB2406142500A4583D /* tabBarImg */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		F14E54AB2406142500A4583D /* tabBarImg */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54AC2406142500A4583D /* my_g@3x.png */,
+				F14E54AD2406142500A4583D /* home@3x.png */,
+				F14E54AE2406142500A4583D /* home_g@3x.png */,
+				F14E54AF2406142500A4583D /* my@3x.png */,
+			);
+			path = tabBarImg;
+			sourceTree = "<group>";
+		};
+		F14E54B02406142500A4583D /* PlistConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54B12406142500A4583D /* BaseControllerConfigure.plist */,
+			);
+			path = PlistConfigure;
+			sourceTree = "<group>";
+		};
+		F14E54C62406144D00A4583D /* ConfigDefine */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54C72406144D00A4583D /* OtherHeader.h */,
+				F14E54C82406144D00A4583D /* ClassHeader.h */,
+				F14E54C92406144D00A4583D /* ColorDefine.h */,
+				F14E54CA2406144D00A4583D /* StringHeader.h */,
+			);
+			path = ConfigDefine;
+			sourceTree = "<group>";
+		};
+		F14E54CB2406144D00A4583D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54CC2406144D00A4583D /* Category */,
+				F14E54CD2406144D00A4583D /* PublicFunction */,
+				F14E54D02406144D00A4583D /* Const */,
+				F14E54D12406144D00A4583D /* Vendor */,
+				F14E54D22406144D00A4583D /* Tool */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F14E54CC2406144D00A4583D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F14E54CD2406144D00A4583D /* PublicFunction */ = {
+			isa = PBXGroup;
+			children = (
+				F14E54CE2406144D00A4583D /* PublicFunction.h */,
+				F14E54CF2406144D00A4583D /* PublicFunction.m */,
+			);
+			path = PublicFunction;
+			sourceTree = "<group>";
+		};
+		F14E54D02406144D00A4583D /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		F14E54D12406144D00A4583D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F14E54D22406144D00A4583D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +398,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3828D9C0D60E6B9BE0A38AB2 /* [CP] Embed Pods Frameworks */,
+				9841C534F9FE7B403E396A35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +448,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +468,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14E54B42406142500A4583D /* login-return@3x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				F14E54B82406142500A4583D /* my@3x.png in Resources */,
+				F14E54B72406142500A4583D /* home_g@3x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				F14E54B52406142500A4583D /* my_g@3x.png in Resources */,
+				F14E54B92406142500A4583D /* BaseControllerConfigure.plist in Resources */,
+				F14E54B62406142500A4583D /* home@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,24 +492,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3828D9C0D60E6B9BE0A38AB2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RGNavigationController_Example/Pods-RGNavigationController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RGNavigationController/RGNavigationController.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RGNavigationController.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RGNavigationController_Example/Pods-RGNavigationController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5D7008DC4E21FE774982B098 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +536,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9841C534F9FE7B403E396A35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RGNavigationController_Example/Pods-RGNavigationController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RGNavigationController/RGNavigationController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RGNavigationController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RGNavigationController_Example/Pods-RGNavigationController_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -364,9 +561,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14E54B22406142500A4583D /* MeViewController.m in Sources */,
+				F14E54C42406143200A4583D /* TEST02Controller.m in Sources */,
 				6003F59E195388D20070C39A /* RGAppDelegate.m in Sources */,
+				F14E549E2406137900A4583D /* BaseViewController.m in Sources */,
+				F14E54D32406144D00A4583D /* PublicFunction.m in Sources */,
+				F14E54C52406143200A4583D /* TEST01ViewController.m in Sources */,
+				F14E54C22406143200A4583D /* TEST03ViewController.m in Sources */,
+				F14E54C32406143200A4583D /* TEST04ViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* RGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F14E54B32406142500A4583D /* HomeViewController.m in Sources */,
+				F14E54A02406137900A4583D /* BaseTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

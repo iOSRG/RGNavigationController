@@ -1,0 +1,16 @@
+PODS:
+  - RGNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - RGNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  RGNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RGNavigationController: dbc3e93c8399bf0371415e7c997e78c533a91e0b
+
+PODFILE CHECKSUM: fa841cc8db785412c385427da6ce133fbaff1b5e
+
+COCOAPODS: 1.8.4

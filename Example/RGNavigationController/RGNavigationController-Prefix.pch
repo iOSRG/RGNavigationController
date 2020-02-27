@@ -13,4 +13,14 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+#import "ColorDefine.h"
+#import "OtherHeader.h"
+#import "ClassHeader.h"
+#import "StringHeader.h"
+
+
+#import "TEST01ViewController.h"
+#import "TEST02Controller.h"
+#import "TEST03ViewController.h"
+#import "TEST04ViewController.h"
 #endif

@@ -7,12 +7,14 @@
 //
 
 #import "RGAppDelegate.h"
-
+#import "BaseTabBarController.h"
 @implementation RGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.rootViewController = [[BaseTabBarController alloc] init];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
