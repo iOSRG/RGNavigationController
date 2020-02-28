@@ -276,8 +276,8 @@
 		F14E54A42406142500A4583D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F14E54A52406142500A4583D /* HomeViewController.m */,
 				F14E54A62406142500A4583D /* HomeViewController.h */,
+				F14E54A52406142500A4583D /* HomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";

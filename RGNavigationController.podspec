@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RGNavigationController'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'RGNavigationController'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 #  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.license          = "MIT"
   s.author           = { '18607304107@163.com' => 'gui.ren@hand-china.com' }
-  s.source           = { :git => 'https://github.com/18607304107@163.com/RGNavigationController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iOSRG/RGNavigationController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
