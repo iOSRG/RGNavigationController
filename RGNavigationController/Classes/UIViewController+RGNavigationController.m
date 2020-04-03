@@ -20,7 +20,7 @@
 
 - (void)setRg_navigationController:(RGNavigationController *)rg_navigationController {
         
-    objc_setAssociatedObject(self, @selector(rg_navigationController), rg_navigationController, OBJC_ASSOCIATION_RETAIN);
+    objc_setAssociatedObject(self, @selector(rg_navigationController), rg_navigationController, OBJC_ASSOCIATION_ASSIGN);
 }
 
 
