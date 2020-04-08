@@ -11,16 +11,16 @@
  进入下个页面,导航栏自动显示,无需设置隐藏属性
  
  
-2.默认支持右滑返回,如果想要关闭某个页面的右滑返回,只需要设置interactivePopGestureRecognizerDisEnableClassArr属性
+ 2.默认支持右滑返回,如果想要关闭某个页面的右滑返回,只需要设置interactivePopGestureRecognizerDisEnableClassArr属性
  
  
-3.如果需要自定义返回按钮事件,则只需要在对应页面控制器遵守RGNavigationControllerProtocol协议,实现- (void)backAction方法
+ 3.如果需要自定义返回按钮事件,则只需要在对应页面控制器遵守RGNavigationControllerProtocol协议,实现- (void)backAction方法
  
  
-4.设置返回按钮的图片可以使用backButtonImage
+ 4.设置返回按钮的图片可以使用backButtonImage
  
  
-5.此框架主要借鉴JTNavigationController,并在此上面扩展了2,3两项功能
+ 5.此框架主要借鉴JTNavigationController,并在此上面扩展了2,3两项功能
  
 ## Example
 
