@@ -7,7 +7,7 @@
 
 ## 功能
 
-1. 每个页面有自己单独的导航栏,隐藏某个页面的导航栏只需要self.navigationController.navigationBar.hidden = YES;
+ 1.每个页面有自己单独的导航栏,隐藏某个页面的导航栏只需要self.navigationController.navigationBar.hidden = YES;
  进入下个页面,导航栏自动显示,无需设置隐藏属性
  
  
